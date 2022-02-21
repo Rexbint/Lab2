@@ -99,7 +99,7 @@ class _MyHomePageState extends State<MyHomePage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 ElevatedButton(
-                  child: Text('—'),
+                  child: const Text('—'),
                   onPressed: _decrementCounter,
                   style: ElevatedButton.styleFrom(
                       primary: Colors.red,
@@ -109,7 +109,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
                 ),
                 ElevatedButton(
-                  child: Text('+'),
+                  child: const Text('+'),
                   onPressed: _incrementCounter,
                   style: ElevatedButton.styleFrom(
                       primary: Colors.green,
@@ -120,7 +120,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ],
             ),
-            TextButton(onPressed: _resetCounter, child: Text("Сбросить")),
+            TextButton(onPressed: _resetCounter, child: const Text("Сбросить")),
           ],
         ),
       ),
