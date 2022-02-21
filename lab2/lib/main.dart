@@ -103,20 +103,18 @@ class _MyHomePageState extends State<MyHomePage> {
                   onPressed: _decrementCounter,
                   style: ElevatedButton.styleFrom(
                       primary: Colors.red,
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 35, vertical: 5),
-                      textStyle:
-                          TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
+                      padding: EdgeInsets.symmetric(horizontal: 35, vertical: 5),
+                      textStyle: TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
                 ),
+                Text(" "),
                 ElevatedButton(
                   child: const Text('+'),
                   onPressed: _incrementCounter,
                   style: ElevatedButton.styleFrom(
                       primary: Colors.green,
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 37, vertical: 5),
-                      textStyle:
-                          TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
+                      padding: EdgeInsets.symmetric(horizontal: 35, vertical: 5),
+                      //maximumSize: Size(width, height),
+                      textStyle: TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
                 ),
               ],
             ),
